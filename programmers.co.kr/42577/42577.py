@@ -4,7 +4,6 @@ from datetime import timedelta
 from collections import defaultdict
 
 def solution(phone_book):
-    #print(phone_book[2].startswith('12'))
     count = defaultdict(int)
     for idx, phone_num in enumerate(phone_book):
         for idx_in in range(len(phone_num)):
